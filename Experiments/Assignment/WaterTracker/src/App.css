@@ -1,0 +1,118 @@
+.navbar {
+  background: #1e293b;
+  padding: 15px 20px;
+  border-radius: 8px;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin-right: 15px;
+  font-weight: 500;
+}
+
+.navbar button {
+  background: #ef4444;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  width: 400px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  box-shadow:  15px 10px 15px  rgba(9, 10, 10, 0.4);
+}
+
+.card h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+
+.card h3 {
+  text-align: center;
+  margin-bottom: 15px;
+  color: #334155;
+}
+
+
+.card button {
+  margin: 5px;
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  background: #506991;
+  color: white;
+  font-weight: 500;
+}
+
+.card button:hover {
+  background: #d1e166;
+}
+
+.card button:nth-child(3) {
+  background: #64748b;
+}
+
+.card input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 15px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+
+.card p {
+  margin-top: 10px;
+  text-align: center;
+}
+
+
+.card p:has(+ hr),
+.card p:first-of-type {
+  color: green;
+  font-weight: bold;
+}
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+
+.login-btn {
+  width: 100%;
+  padding: 10px;
+  margin-top: 15px;
+  background: #22c55e;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.login-btn:hover {
+  background: #16a34a;
+}
+.page-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+  box-shadow: 5px 5px 15px rgba(99, 205, 227, 0.5);
+background-image: linear-gradient(to top, #ebbba7 0%, #cfc7f8 100%);}
