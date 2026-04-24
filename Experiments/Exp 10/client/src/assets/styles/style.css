@@ -1,0 +1,44 @@
+.scroll-remove::-webkit-scrollbar {
+   width: 10px;
+ }
+ 
+ .customized-scrollbar::-webkit-scrollbar-thumb {
+   background: #000;
+   width: 1px;
+   border-radius: 20px;
+ }
+ 
+ .customized-scrollbar::-webkit-scrollbar {
+   width: 5px;
+   height: 3px;
+   margin-right: 10px;
+   background-color: #f0f0f0;
+   border-radius: 20px;
+ }
+ 
+ .overflow-scrollbar::-webkit-scrollbar-thumb {
+   background: #8a8989;
+   width: 1px;
+   border-radius: 20px;
+ }
+ 
+ .overflow-scrollbar::-webkit-scrollbar {
+   width: 5px;
+   height: 3px;
+   margin-right: 10px;
+   border-radius: 20px;
+ }
+ 
+ .overflow-scrollbarOne::-webkit-scrollbar-thumb {
+   background: #fdfdfd;
+   width: 1px;
+   border-radius: 20px;
+ }
+ 
+ .overflow-scrollbarOne::-webkit-scrollbar {
+   width: 5px;
+   height: 3px;
+   margin-right: 10px;
+   border-radius: 20px;
+ }
+ 
